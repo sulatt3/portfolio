@@ -37,11 +37,11 @@ export default function ConnectSection() {
 
   const inputStyle: React.CSSProperties = {
     width: "100%",
-    background: "rgba(255,255,255,0.03)",
+    background: "rgba(0,0,0,0.03)",
     border: "1px solid rgba(200,169,110,0.25)",
     borderRadius: 2,
     padding: "14px 16px",
-    color: "#e8eaf0",
+    color: "#0b0e1c",
     fontFamily: "var(--font-sans), 'DM Sans', sans-serif",
     fontSize: 14,
     fontWeight: 300,
@@ -54,7 +54,7 @@ export default function ConnectSection() {
     fontSize: 10,
     letterSpacing: "0.12em",
     textTransform: "uppercase" as const,
-    color: "#4a5070",
+    color: "#6a7090",
     display: "block",
     marginBottom: 8,
   };
@@ -76,7 +76,7 @@ export default function ConnectSection() {
           marginBottom: 16,
         }}
       >
-        — Get in Touch
+        Get in Touch
       </div>
       <h2
         style={{
@@ -94,7 +94,7 @@ export default function ConnectSection() {
         style={{
           fontFamily: "var(--font-sans), 'DM Sans', sans-serif",
           fontWeight: 300,
-          color: "#6070a0",
+          color: "#4a5570",
           lineHeight: 1.7,
           fontSize: 15,
           maxWidth: 520,
@@ -130,7 +130,7 @@ export default function ConnectSection() {
               style={{
                 fontFamily: "var(--font-sans), 'DM Sans', sans-serif",
                 fontWeight: 300,
-                color: "#6070a0",
+                color: "#4a5570",
                 fontSize: 14,
                 lineHeight: 1.7,
               }}
